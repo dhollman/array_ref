@@ -474,7 +474,7 @@ algorithms.
 
   assert( y.rank() == 2 );
   assert( y.extent(0) == N0 - 2 );
-  assert( y.extent(0) == N1 - 2 );
+  assert( y.extent(1) == N1 - 2 );
   assert( & y(0,0) == & x(1,1,1) );
 
   // Using initializer_list of size 2 as an integral range
